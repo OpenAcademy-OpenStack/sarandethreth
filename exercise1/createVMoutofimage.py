@@ -1,4 +1,3 @@
-# To be execuclienit as KeystoneClientted from the host machine (not vagrant VM)
 from keystoneclient.v2_0 import Client as KeystoneClient
 from glanceclient import Client as GlanceClient
 from novaclient.v1_1 import Client as NovaClient
